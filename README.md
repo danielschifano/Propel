@@ -12,11 +12,15 @@ Make sure that your development environment has Node.js installed.
 * Uglify
 
 #Installation
-Run
+Run this on command line.
 ```
 npm install
 ```
-And then run
+And then run following command.
+```
+gulp build
+```
+Last run and happy coding.
 ```
 gulp
 ```
