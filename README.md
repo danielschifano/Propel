@@ -2,7 +2,7 @@
 A boilerplate for web design project using awesome low-level CSS toolkit Basscss. It has purpose for automated own personal workflow.
 
 #Docs
-Make sure that your development environment has Node.js installed
+Make sure that your development environment has Node.js installed.
 
 #Features
 * Basscss
@@ -13,6 +13,10 @@ Make sure that your development environment has Node.js installed
 
 #Installation
 Run
-    npm install
+```
+npm install
+```
 And then run
-    gulp
+```
+gulp
+```
