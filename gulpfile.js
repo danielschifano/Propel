@@ -17,8 +17,6 @@ var config = {
   npmDir: './node_modules/',
 };
 
-gulp.slurped = false;
-
 gulp.task('copy', function() {
   var basscss = gulp.src(config.npmDir + 'basscss-sass/scss/**/*.scss')
   .pipe(gulp.dest(config.sassPath + 'vendor/basscss-sass/'));
