@@ -1,5 +1,5 @@
-#Basscss Starter Project
-A boilerplate for web design project using awesome low-level CSS toolkit [Basscss](http://www.basscss.com). It has purpose for automated own personal workflow.
+#Propel
+A prototype for a peer to peer application concept.
 
 #Docs
 Make sure that your development environment has Node.js installed.
