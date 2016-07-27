@@ -30,6 +30,45 @@
 }
 
 body {
-    font-family: abel, sans-serif;
-    background: #fff;
+  background: #fff;
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+input {
+  outline: 0;
+  background-color: transparent;
+  border: 0;
+}
+
+input:-webkit-autofill {
+  box-shadow: 0 0 0px 1000px white inset;
+}
+
+hr {
+  opacity: 0.1;
+  width: 100%;
+}
+
+a {
+  color: black;
+}
+
+
+.btn {
+  border: 0;
+  border-radius: 40px;
+  color: white;
+  outline: 0;
+
+  &--primary {
+    background-color: black;
+  }
+}
+
+.footer {
+  bottom: 0;
+  position: fixed;
+  width: 100%;
 }
