@@ -67,8 +67,60 @@ a {
   }
 }
 
+.header {
+  background-color: #ECF0F1;
+  color: #31475C;
+}
+
+.body {
+  background-color: #ECF0F1;
+}
+
 .footer {
-  bottom: 0;
-  position: fixed;
+  background-color: #fff;
+  border: 1px solid #E7E5E5;
+  color: #B0B0B0;
+  height: 55px;
+  width: 100%;
+}
+
+.card {
+  background-color: white;
+  border: 1px solid #F4F7F8;
+  box-shadow: 0 0 5px 0 rgba(black, 0.1);
+  border-radius: 7px;
+  overflow: hidden;
+
+  &--hidden {
+    background-color: #F4F7F8;
+    border-radius: 4px;
+    height: 350px;
+    width: 80px;
+  }
+}
+
+.goal-text {
+  font-size: 1.75rem;
+}
+
+.btn-add {
+  background: #1DD3B0;
+  border: 4px solid #fff;
+  border-radius: 100px;
+  color: white;
+  font-size: 30px;
+  font-weight: 400;
+  height: 60px;
+  line-height: 0;
+  outline: 0;
+  width: 60px;
+}
+
+.btn-btm {
+  background: #1DD3B0;
+  border: 0;
+  color: #fff;
+  letter-spacing: 0.1rem;
+  outline: 0;
   width: 100%;
 }
