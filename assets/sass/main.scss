@@ -43,11 +43,11 @@ input {
 }
 
 input:-webkit-autofill {
-  box-shadow: 0 0 0px 1000px white inset;
+  box-shadow: 0 0 0px 1000px #ecf0f1 inset;
 }
 
 hr {
-  opacity: 0.1;
+  opacity: 0.3;
   width: 100%;
 }
 
@@ -63,7 +63,7 @@ a {
   outline: 0;
 
   &--primary {
-    background-color: black;
+    background-color: #1DD3B0;
   }
 }
 
