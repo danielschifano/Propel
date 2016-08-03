@@ -36,10 +36,22 @@ body {
   padding: 0;
 }
 
-input {
+input,
+textarea {
   outline: 0;
   background-color: transparent;
   border: 0;
+}
+
+.content-ed {
+  display:inline-block;
+  min-height: 100%;
+  outline: 0;
+  width: 80%;
+}
+
+[contenteditable=true]:empty:before {
+  content: attr(placeholder);
 }
 
 input:-webkit-autofill {
@@ -53,6 +65,10 @@ hr {
 
 a {
   color: black;
+}
+
+.active {
+  color: #1DD3B0;
 }
 
 
@@ -69,7 +85,6 @@ a {
 
 .header {
   background-color: #ECF0F1;
-  color: #31475C;
 }
 
 .body {
@@ -123,4 +138,25 @@ a {
   letter-spacing: 0.1rem;
   outline: 0;
   width: 100%;
+}
+
+
+input[type="date"]::before {
+	color: #000;
+	content: attr(placeholder);
+  font-family: 'Lato', sans-serif;
+}
+
+input[type="date"] {
+	color: transparent;
+}
+
+input[type="date"]:focus,
+input[type="date"]:valid {
+	color: #000;
+}
+
+input[type="date"]:focus::before,
+input[type="date"]:valid::before {
+	content: "" !important;
 }
