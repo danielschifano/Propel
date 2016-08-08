@@ -14,9 +14,9 @@
   <div class="header flex justify-between items-center py1 px2">
     <img src="img/back-arrow-light-grey.svg"
       height="15px"
-      onclick="window.location='login.html';"/>
+      onclick="window.location='home.html';"/>
     <h3 class="bold center m0 p2">
-      Add Goal</h3>
+      Propel</h3>
     <img src="img/close.svg"
       height="30px;"
       onclick="window.location='login.html';"/>
@@ -25,29 +25,42 @@
   <div class="body"
     style="height: 100%;">
     <div class="flex flex-column justify-between items-start py4">
-      <div class="content-ed h1 mb4 px3 pb3"
-        contenteditable="true"
-        placeholder="What goal do you want to achieve?"></div>
 
-      <div class="content-ed h4 px3"
-        contenteditable="true"
-        placeholder="What is your reason?"></div>
+      <select class="h4 px3" name="">
+        <option value="" disabled selected>Type of Motivation</option>
+        <option>motivation 1</option>
+        <option>motivation 2</option>
+        <option>motivation 3</option>
+      </select>
       <hr class="mt2 mb3"/>
 
-      <input type="date"
-        class="h4 px3"
-        placeholder="Goal Date"
-        required=""/>
+      <select class="h4 px3" name="">
+        <option value="" disabled selected>How would you like to receive motivation?</option>
+        <option>video</option>
+        <option>audio</option>
+        <option>text</option>
+      </select>
+      <hr class="mt2 mb3"/>
+
+      <select class="h4 px3" name="">
+        <option value="" disabled selected>Reminder Frequency</option>
+        <option>Daily</option>
+        <option>Every 3 days</option>
+        <option>Weekly</option>
+        <option>Bi-Weekly</option>
+        <option>Monthly</option>
+      </select>
       <hr class="mt2 mb3"/>
     </div>
     <!-- FOOTER -->
     <div class="">
       <div class="center">
         <button class="btn btn--primary h4 px4 py2"
-          onclick="window.location='home1.html';">
+          onclick="window.location='home2.html';">
           Next</button>
       </div>
     </div>
+
   </div>
 </body>
 </html>
