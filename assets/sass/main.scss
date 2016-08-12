@@ -81,6 +81,11 @@ a {
   &--primary {
     background-color: #1DD3B0;
   }
+
+  &--secondary {
+    background-color: #E7E5E5;
+    color: rgba(black, 0.4);
+  }
 }
 
 .header {
@@ -140,7 +145,6 @@ a {
   width: 100%;
 }
 
-
 input[type="date"]::before {
 	color: #000;
 	content: attr(placeholder);
@@ -159,4 +163,13 @@ input[type="date"]:valid {
 input[type="date"]:focus::before,
 input[type="date"]:valid::before {
 	content: "" !important;
+}
+
+.video {
+  height: 100vh;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  z-index: -1;
 }
